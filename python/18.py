@@ -1,15 +1,23 @@
 # file = open("text.txt", "w")
-# file1 = open("text.txt", "r")
-# # data = open("text.txt", "r")
 
 # file.write("Hello")
 # file.write("\nHello Python")
-# # print(data)
 
-# readFile= file1.read()
-# print(file1.read())
+# file = open("text.txt", "r")
+# data = file.read()
+# print(data)
 
+# file = open("text.txt", "a")
+# file.write("\nML Engineer")
+# data=file.read(10)
+# print(data)
 # file.close()
+
+# with open("text.txt", "r") as file:
+#     data = file.read()
+#     print(data)
+
+
 
 # a = 10
 # b = 0

@@ -6,14 +6,24 @@ import random
 # day = datetime.datetime.now()
 # day = datetime.today()
 
-# today = datetime.today()
+# now = datetime.datetime.now()
 
-# print(today)
+# print("Year:", now.year)
+# print("Month:", now.month)
+# print("Day:", now.day)
+
+# print("Hour:", now.hour)
+# print("Minute:", now.minute)
+# print("Second:", now.second)
 
 # print(time.localtime())
 # print("Start")
 # print(time.sleep(5))
 # print("End")
+
+# date = datetime.date(2026, 9, 23)
+
+# print(date)
 
 # for i in range(5,0,-1):
 #     print(i)
